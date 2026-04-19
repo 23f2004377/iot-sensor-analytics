@@ -46,7 +46,7 @@ The ESP32 serves this HTML interface to any device connected to the same Wi-Fi:
 
 ---
 
-## 🔌 Wiring Setup
+## Wiring Setup
 
 | DHT11 Pin | ESP32 Pin |
 |-----------|-----------|
