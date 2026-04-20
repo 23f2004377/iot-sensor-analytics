@@ -80,3 +80,25 @@ def web_page(temp, hum):
                 </body>
               </html>""".format(REFRESH_SECONDS, temp, hum, REFRESH_SECONDS)
 
+# Start web server
+addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
+s = socket.socket()
+s.bind(addr)
+s.listen(1)
+
+print('Web server running...')
+
+while True:
+    try:
+        cl, addr = s.accept()
+        print('Client connected from', addr)
+        sensor.measure()
+        temp = sensor.temperature()
+        hum = sensor.humidity()
+
+        response = web_page(temp, hum)
+        cl.send('HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nConnection: close\r\n\r\n')
+        cl.send(response)
+        cl.close()
+    except OSError:
+        pass
