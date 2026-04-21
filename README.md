@@ -30,7 +30,7 @@ This project reads **temperature** and **humidity** data from a **DHT11 sensor**
 
 ##  Circuit Diagram
 
-![Circuit Diagram](circuit_image_(4).png)
+![Circuit Diagram](circuit_image.png)
 
 > 💡 *10KΩ resistor is connected between VCC and DATA of the DHT11 for stable communication.*
 
