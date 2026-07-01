@@ -1,7 +1,0 @@
-{
-  "prompt": "Ultra-realistic documentary-style photograph of a vast, empty landscape under an overcast sky. In the foreground, a long line of abandoned shoes stretches across the ground into the distance, gradually fading as they recede. The shoes vary in size — children's shoes, worn adult shoes, sandals — all mismatched and weathered, suggesting many different lives. The density of shoes is high near the foreground but becomes sparse toward the horizon, symbolizing scale and loss. No people are visible anywhere in the scene. The emptiness is intentional and powerful. The ground is dry, slightly cracked earth, with muted tones. The sky is grey and heavy, creating a somber, quiet atmosphere. Composition follows a strong leading line toward the horizon. Mood: absence, displacement, quiet grief, irreversible loss. Color palette: desaturated greys, dusty browns, faded fabric tones. No text, no labels, no symbols, no numbers, no charts, no graphical elements, no surreal effects. Everything must look physically real, like a documentary photograph.",
-  "model": "Gemini Imagen",
-  "dataset_name": "UNHCR Global Displacement Statistics",
-  "dataset_url": "https://www.unhcr.org/refugee-statistics/",
-  "insight": "By 2023, 1 in 74 people globally has been forcibly displaced."
-}
